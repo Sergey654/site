@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+.container{
+    width: 100%;
+    min-width: 270px;
+    margin: 0 5px;
+}
+
+.nav{
+	display: none;
+}
+
+.contact{
+	font-size: 18px;
+}
+
+.link_call{
+	display: none;
+}
+
+.logo-img{
+	width: 50px;
+}
+
+.but{
+    width: 60px;
+    height: 60px;
+    border: 3px solid black;
+    position: relative;
+    display: block;
+    transform: scale(.5);
+    
+
+
+}
+
+.sq1{
+    width: 45px;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    left: 8px;
+    top: 10px;
+    transition: .5s;
+    transform-origin: 50% 50%;
+
+}
+
+.sq2{
+    width: 45px;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    left: 8px;
+    top: 26px;
+    transition: .5s;
+    transform-origin: 50% 50%;
+}
+
+.sq3{
+    width: 45px;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    left: 8px;
+    top: 42px;
+    transition: .5s;
+    transform-origin: 50% 50%;
+}
+
+.but:hover .sq1{
+    transform: rotate(45deg);
+    top: calc(50%)
+}
+
+.but:hover .sq3{
+    transform: rotate(-45deg);
+    top: calc(50%)
+}
+
+.but:hover .sq2{
+    opacity: 0;
+}
+}

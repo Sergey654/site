@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;  
+}
+
+
+
+body{
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+/*header*/
+.header{
+    background: rgb(233, 233, 233);
+}
+
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li{
+    margin: 0 0.5vw
+}
+.menu a{
+    color: #000;
+    font-size: 24px;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+.contact{
+    display:flex;
+    flex-direction: column;
+}
+
+.but{
+ display: none;
+}
+
+
+
+/*Блок меню:*/
+
+.promo{
+   background: url(img/bg.jpg) no-repeat 100% 50%;
+   background-size: cover;
+   height: 740px;
+   
+}
+
+.promo-inner{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ height: 100%
+
+}
+
+.txt1{
+width: 785px;
+/* H1/40 */
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+display: flex;
+align-items: center;
+
+color: #FCF8F4;
+}
+
+.txt2{
+width: 785px;
+
+
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+display: flex;
+align-items: center;
+
+color: #FCF8F4;
+}
